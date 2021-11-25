@@ -1,6 +1,6 @@
 import pandas as pd
 
-stocks = pd.read_excel('/Users/jiajun.jiang/PycharmProjects/JJ_test/datas/stocks/互联网公司股票.xlsx')
+stocks = pd.read_excel('/Users/jiajun.jiang/PycharmProjects/JJ_test/datas_pandas/stocks/互联网公司股票.xlsx')
 
 print(stocks)
 

@@ -19,4 +19,3 @@ for i in rows:
 print(tem_dict)
 
 result.close()
-
