@@ -1,8 +1,7 @@
 
-
+print("----------test01-----------")
 def myget():
     print(myprint())
-
 
 def myprint (args = None):
     if args is None:
@@ -15,3 +14,10 @@ def myprint (args = None):
     # "RISKDP__db_mongodb_name"
 
 print(myget())
+
+print("----------test02-----------")
+a = '20'
+if a:
+    print(int(a))
+else:
+    print("youwenti")
