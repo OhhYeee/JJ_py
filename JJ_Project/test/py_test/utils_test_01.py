@@ -4,7 +4,7 @@ from utils.myfunctools import *
 
 dbname = 'JJ_Test'
 
-engine = create_engine('mysql+mysqlconnector://root:12345678@localhost:3306/{}'.format(dbname))
+engine = create_engine('mysql_test+mysqlconnector://root:12345678@localhost:3306/{}'.format(dbname))
 conn = engine.connect()
 res = text(
     '''
